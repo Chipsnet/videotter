@@ -11,7 +11,7 @@ const ini = require('ini')
 var LocalStorage = require('node-localstorage').LocalStorage;
 localStorage = new LocalStorage('./keys');
 
-let config = ini.parse(fs.readFileSync('./config/token.txt', 'utf-8'))
+let config = ini.parse(fs.readFileSync(__dirname+'/config/token.txt', 'utf-8'))
 
 Client_key = config.key;
 Client_key_Secret = config.secret;
