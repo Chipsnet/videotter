@@ -50,14 +50,14 @@ app.on('ready', function() {
         .then((result) => {
             localStorage.setItem("Token", result.oauth_access_token)
             localStorage.setItem("Secret", result.oauth_access_token_secret)
-            mainWindow.loadFile('./index.html');
+            mainWindow.loadFile(__dirname+'/index.html');
         }).catch((error) => {
             dialog.showErrorBox('認証に失敗しました', error.toString())
             console.error(error, error.stack);
             app.quit();
         });
     } else {
-        mainWindow.loadFile('./index.html');
+        mainWindow.loadFile(__dirname+'/index.html');
     }
 });
 
