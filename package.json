@@ -4,7 +4,7 @@
     "electron-oauth-twitter": "^1.1.0",
     "electron-packager": "^15.0.0",
     "ini": "^3.0.0",
-    "node-downloader-helper": "^1.0.10",
+    "node-downloader-helper": "^2.0.0",
     "node-localstorage": "^2.0.0",
     "twitter": "^1.7.1"
   },
