@@ -938,9 +938,7 @@ node-downloader-helper@^1.0.10:
   integrity sha512-2t3h3g3xK5kxhRbwD+0WgKotHyoVEQlE+V93rn97tqzUtbw8cFpHn0uhsc2LeKkDlsQI1iy5XZoS3vACzBdW8A==
 
 node-localstorage@^2.0.0:
-  version "2.1.6"
-  resolved "https://registry.yarnpkg.com/node-localstorage/-/node-localstorage-2.1.6.tgz#7c62120beff8abbf960c858da70fddcfc336898a"
-  integrity sha512-yE7AycE5G2hU55d+F7Ona9nx97C+enJzWWx6jrsji7fuPZFJOvuW3X/LKKAcXRBcEIJPDOKt8ZiFWFmShR/irg==
+  version "2.2.1"
   dependencies:
     write-file-atomic "^1.1.4"
 
