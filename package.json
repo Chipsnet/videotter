@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "electron": "^23.0.0",
+    "electron": "^27.0.0",
     "electron-oauth-twitter": "^1.1.0",
     "electron-packager": "^17.0.0",
     "ini": "^4.0.0",
